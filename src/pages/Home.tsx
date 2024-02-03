@@ -1,6 +1,6 @@
 
 import bg from "../assets/Cyberpunk-City.jpg";
-import heroImg from "../assets/Arcane Jinx.jpg";
+import heroImg from "../assets/img-portifolio.jpg";
 import "./style.css";
 import Typewriter from "./TypeWriter/TypeWrite";
 
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="home" className=" h-screen w-full text-center bg-cover bg-center bg-no-repeat " style={{ backgroundImage: `url(${bg})` }} >
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">
+        <div className="w-64 h-full mx-auto overflow-hidden rounded-xl items-center">
           <img src={heroImg} alt="me" />
         </div>
 
