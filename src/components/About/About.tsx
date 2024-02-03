@@ -21,6 +21,7 @@ const About = () => {
       </section>
       <section>
         <div className="flex flex-col sm:flex-row px-4 py-4">
+          <h1>Aonde me encontrar</h1>
           <div className="text-3xl md:text-5xl cursor-pointer hover:text-az w-full sm:w-1/4 px-5 mx-5 mb-4 sm:mb-0 animate-fade-right animate-once animate-duration-500 animate-delay-[30ms] animate-ease-in-out ">
             <a href="https://github.com/Miguelluisdev" target="_blank">
               <FaGithub />

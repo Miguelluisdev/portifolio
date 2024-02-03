@@ -14,7 +14,7 @@ export default {
       "az": "#1afe49",
       "ab": "#d1f7ff",
       "ad": "#120458",
-      "celeste": "#080F26",
+      "azul-celeste": "#080F26",
     },
     extend: {
       backgroundImage: {
