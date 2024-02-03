@@ -22,3 +22,9 @@ body{
 p{
   font-family: "Source Sans 3";
 }
+
+.disabled-btn{
+  background-color: white;
+  color: black;
+  cursor: not-allowed;
+}
