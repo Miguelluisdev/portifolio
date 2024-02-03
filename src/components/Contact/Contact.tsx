@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
 
   return (
     <div>
-      <form method="POST" action="https://formsubmit.co/miguelluisataideferreira68@gmail.com" className='mx-auto max-w-md w-full pt-48'>
+      <form method="POST" action="https://formsubmit.co/miguelluisataideferreira68@gmail.com" className='mx-auto max-w-md w-full pt-48 animate-flip-up animate-once animate-duration-[2000ms] animate-delay-[30ms] animate-ease-out animate-normal animate-fill-backwards'>
         <h2 className='text-2xl font-bold mb-4'>Contato</h2>
         <div className='mb-4'>
           <label htmlFor="nome" className='block mb-2 text-gray-700'>Nome</label>

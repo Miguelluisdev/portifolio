@@ -2,10 +2,10 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
+import bbg from "../../assets/wallpaperflare.com_wallpaper.jpg"
 const About = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-AzulEscuro ">
+    <div className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-AzulEscuro bg-cover bg-no-repeat bg-center " style={{ backgroundImage: `url(${bbg})` }}>
       <div className="max-w-screen-xl mx-auto w-full pt-24 p-4 flex flex-col justify-around items-center">
         <h2 className="text-2xl font-medium mb-4 font-Montserrat animate-bounce animate-infinite animate-duration-[2000ms]  animate-ease-in-out ">
           Front End Developer
