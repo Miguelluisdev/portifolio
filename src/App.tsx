@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import ErrorPage from './pages/Error/ErrorPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<About />} />
+          <Route errorElement={<ErrorPage />} ErrorBoundary={ErrorPage}  ></Route>
         </Routes>
       </BrowserRouter>
     </>
