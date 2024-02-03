@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="home" className=" h-screen w-full text-center bg-cover bg-center bg-no-repeat " style={{ backgroundImage: `url(${bg})` }} >
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl animate-fade-down animate-once animate-duration-[2000ms] animate-delay-[50ms] ">
+        <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">
           <img src={heroImg} alt="me" />
         </div>
 
