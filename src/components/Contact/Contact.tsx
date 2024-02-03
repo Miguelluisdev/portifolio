@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
   const [nome, setNome] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [mensagem, setMensagem] = useState<string>("");
-  const [enviado, setEnviado] = useState<boolean>(false);
+  const [enviado] = useState<boolean>(false);
 
   const emailRef = useRef<HTMLInputElement>(null);
 
