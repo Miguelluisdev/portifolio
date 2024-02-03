@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
 import Skills from './components/Skills/Skills';
@@ -17,7 +17,6 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      <Outlet />
     </>
   );
 }

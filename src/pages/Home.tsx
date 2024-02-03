@@ -1,32 +1,47 @@
 import { FaArrowRight } from "react-icons/fa";
+import bg from "../assets/Cyberpunk-City.jpg";
 import heroImg from "../assets/Arcane Jinx.jpg";
 import "./style.css";
 
+
 const Home = () => {
   return (
-    <>
-      <div className="h-screen w-full bg-hero-pattern bg-cover bg-no-repeat bg shadow-lg bg-center">
-        <div className="flex flex-col md:flex-row items-center justify-center px-4 h-full">
-          <div className="bg-ad rounded-md px-9 bg-opacity-5 flex flex-col items-center space-y-4 md:w-1/2">
-            <h1 className="font-Montserrat font-bold text-4xl">Full Stack Developer</h1>
-            <p className="font-Montserrat text-xl">
-              Venho me dedicando todos os dias em programação. Desde o início, não houve um único dia em que não tenha continuado a aprender, com o objetivo de me tornar um desenvolvedor Full Stack excepcional. Meu foco é resolver os erros. sou estudante de ADS na UNISUAM e também faço cursos na udemy, one bit code, cursos em vídeo e cursos CFB e hora de codar estou em busca de ser desenvolvedor fullstack.
-            </p>
-            <a href="" className="bg-gradient-to-r from-ad to-azul-celeste shadow-sm shadow-ab hover:shadow-AzulEscuro text-white font-bold py-2 px-4 rounded-full hover:text-az flex flex-row  justify-center items-center w-40  " >
-              Currículo <FaArrowRight className="ml-1-5 my-1 pl-1 " />
+    <div className="bg-gradient-to-b from-black via-black to-gray-800">
+      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-screen px-4 md:flex-row">
+        <div className="flex flex-col justify-center text-center md:text-left md:w-1/2">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+            I'm a Full Stack Developer
+          </h2>
+          <p className="text-gray-500 py-4 max-w-md mx-auto md:mx-0">
+            I have 8 years of experience building and designing software.
+            Currently, I love to work on web applications using technologies like
+            React, Tailwind, Next.js, and GraphQL.
+          </p>
+
+          <div className="mx-auto md:mx-0">
+            <a
+              href="#portfolio"
+              className="group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
+              Curriculo
+              <span className="group-hover:rotate-90 duration-300">
+                <FaArrowRight size={25} className="ml-1" />
+              </span>
             </a>
           </div>
-          <div className="flex items-center md:w-1/2 md:ml-10">
-            <img
-              src={heroImg}
-              alt="my profile"
-              className="max-w-full h-80 rounded-full object-cover shadow-lg md:max-w-sm"
-            />
-          </div>
-          <div>icons</div>
         </div>
+
+        <div className="md:w-2/2">
+          <img
+            src={heroImg}
+            alt="my profile"
+            className="rounded-2xl mx-auto w-full md:w-2/3 lg:w-1/2 xl:w-1/3 max-w-md"
+          />
+        </div>
+
+
       </div>
-    </>
+    </div>
   );
 };
 
