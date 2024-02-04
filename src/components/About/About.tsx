@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <section className="container mx-auto px-4">
         <p className="text-lg leading-loose mb-8 font-Montserrat animate-fade-left animate-once animate-duration-500 animate-delay-[30ms] animate-ease-in-out ">
-          Olá, sou estudante de ADS na UNISUAM e também faço cursos na udemy, one bit code, cursos em vídeo e cursos CFB e hora de codar estou em busca de ser desenvolvedor fullstack, por enquanto estou estudando React ,typescript e tailwind estou em busca de um estagio , procurando sempre aprender com os erros , e encontrar as melhores maneiras de resolver um problema.
+          Olá, sou estudante de ADS na UNISUAM e também faço cursos na udemy, one bit code, cursos em vídeo e cursos CFB e hora de codar estou em busca de ser desenvolvedor fullstack,tambem possuo curso de ingles intermediario e por enquanto estou estudando React ,typescript e tailwind estou em busca de um estagio , procurando sempre aprender com os erros , e encontrar as melhores maneiras de resolver um problema.
         </p>
       </section>
       <section>
