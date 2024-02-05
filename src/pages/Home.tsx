@@ -21,7 +21,7 @@ const Home = () => {
           Venho me dedicando todos os dias em programação , com o objetivo de me tornar um desenvolvedor Full Stack excepcional. Meu foco é dar o meu melhor a cada dia independente dos problemas.
         </p>
 
-        <a href="" className="bg-gradient-to-r from-ad to-azul-celeste shadow-sm shadow-ab hover:shadow-AzulEscuro text-white font-bold py-2 px-4 rounded-full w-36 hover:text-az flex flex-row justify-around items-center animate-fade-right animate-once animate-duration-[2000ms] animate-delay-[50ms] mt-5">
+        <a href="https://drive.google.com/drive/folders/13ZSgtGtC-W_pdKAbp7V5CUaeCgcvpv0q?usp=drive_link" target="_blank"  className="bg-gradient-to-r from-ad to-azul-celeste shadow-sm shadow-ab hover:shadow-AzulEscuro text-white font-bold py-2 px-4 rounded-full w-36 hover:text-az flex flex-row justify-around items-center animate-fade-right animate-once animate-duration-[2000ms] animate-delay-[50ms] mt-5">
           Currículo  </a>
       </div>
     </div>
