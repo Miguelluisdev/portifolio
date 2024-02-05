@@ -1,30 +1,53 @@
 # Portifolio
+<!-- README.md -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Portfólio - Miguel Luis </h1>
 
-Currently, two official plugins are available:
+<p align="center">Bem-vindo ao meu portfólio!</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2 align="center">Sobre Mim</h2>
 
-## Expanding the ESLint configuration
+<p align="center">faço faculdade de ADS na UNISUAM e venho fazendo alguns cursos como one bit code e udemy , tenho objetivo em me tornar um desenvolvedor fullstack , no momento aprendendo frontEnd e em busca de estagio na area.</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2 align="center">Habilidades</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<p align="center">
+  HTML | CSS | JavaScript | TypeScript | React | Tailwind ///pendencias para aprender no futuro >>> material ui | solid | design pattern | JEST |
+</p>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h2 align="center">Contato</h2>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="center">
+  E-mail: <a href="miguelluisataideferreira68@gmail.com">miguelluisataideferreira68@gmail.com</a><br>
+  LinkedIn: <a href="https://www.linkedin.com/in/miguel-luis-8533022a0/">Miguel Luis</a>
+</p>
+
+<h2 align="center">Idiomas</h2>
+
+<p align="center">
+  Português: nativo<br>
+  Inglês: intermediario , curso feito no CNA
+</p>
+
+<h2 align="center">Certificações</h2>
+
+<p align="center">
+  a maioria é da one bit code , porem estou terminando os da udemy.
+  e no futuro terei diploma da faculdade. os posts estão no linkedin
+</p>
+
+<h2 align="center">Interesses</h2>
+
+<p align="center">
+  BackEnd | Mobile 
+</p>
+
+<h2 align="center">Links</h2>
+
+<p align="center">
+  LinkedIn: <a href="https://www.linkedin.com/in/miguel-luis-8533022a0/">Miguel Luis</a><br>
+  E-mail: <a href="mailto:miguelluisataideferreira68@gmail.com">miguelluisataideferreira68@gmail.com</a>
+</p>
+
+<p align="center">Obrigado por visitar o meu portfólio! Se você gostou e deseja entrar em contato, sinta-se à vontade para enviar um e-mail ou se conectar através do LinkedIn.</p>
+
