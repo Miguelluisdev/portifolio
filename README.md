@@ -36,7 +36,7 @@
   e no futuro terei diploma da faculdade. os posts estão no linkedin
 </p>
 
-<h2 align="center">Interesses</h2>
+<h2 align="center">Interesses futuros </h2>
 
 <p align="center">
   BackEnd | Mobile 
