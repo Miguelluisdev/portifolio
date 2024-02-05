@@ -18,6 +18,9 @@ const Header = React.memo(() => {
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md ' >
           <Link to="/">Home</Link>
         </li>
+        <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
+          <Link to="/About">Sobre mim</Link>
+        </li>
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md  '>
           <Link to="/Skills">Habilidades</Link>
         </li>
@@ -26,9 +29,6 @@ const Header = React.memo(() => {
         </li>
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
           <Link to="/Contact">Contatos</Link>
-        </li>
-        <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
-          <Link to="/About">Sobre mim</Link>
         </li>
       </ul>
       {/* Use media query to hide/show the hamburger icon based on screen size */}
@@ -40,6 +40,9 @@ const Header = React.memo(() => {
           <Link to="/">Home</Link>
         </li>
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
+          <Link to="/About">Sobre mim</Link>
+        </li>
+        <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
           <Link to="/Skills">Habilidades</Link>
         </li>
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
@@ -47,9 +50,6 @@ const Header = React.memo(() => {
         </li>
         <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
           <Link to="/Contact">Contatos</Link>
-        </li>
-        <li className='px-4 cursor-pointer capitalize text-lg hover:text-az duration-500 shadow-AzulEscuro shadow-md '>
-          <Link to="/About">Sobre mim</Link>
         </li>
       </ul>
     </header>

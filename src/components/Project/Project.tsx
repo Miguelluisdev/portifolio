@@ -1,9 +1,17 @@
+import ProjectList from "./ProjectList"
 
 
 
 const Project = () => {
   return (
-    <div>project</div>
+    <div>
+      <ProjectList project={{
+        link: "",
+        capa: "",
+        title: "",
+        techImages: []
+      }} />
+    </div>
   )
 }
 
