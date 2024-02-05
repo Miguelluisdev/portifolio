@@ -18,7 +18,7 @@ function App() {
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<About />} />
-          <Route errorElement={<ErrorPage />} ErrorBoundary={ErrorPage}  ></Route>
+          <Route errorElement={<ErrorPage />} ErrorBoundary={ErrorPage} />
         </Routes>
       </BrowserRouter>
     </>
