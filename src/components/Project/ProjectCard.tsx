@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <li className="rounded-md shadow-md overflow-hidden border border-branco">
+    <li className="rounded-md shadow-md overflow-hidden border border-branco hover:border-az hover:bg-azul-celeste animate-fade-left animate-once animate-duration-[2000ms] animate-ease-linear">
       <a href={project.link} target="_blank">
         <img src={project.capa} alt={project.title} className="w-full h-50 object-cover rounded-sm" />
       </a>
